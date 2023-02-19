@@ -26,12 +26,11 @@
     margin-right: 20px;
   }
    .btn-section {
+    
       display: flex;
       padding: 10px;
       justify-content: space-between;
       width: 200px;
-  
-    
       
   }
   

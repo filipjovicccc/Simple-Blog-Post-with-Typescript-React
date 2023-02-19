@@ -7,8 +7,11 @@ const BlogList:React.FC<{items: Blogs[]}> =(props)=> {
   
   return (
     <div className="blog-list">
+
       {props.items.map((item) => {
+
         return <DisplayBlogs 
+        
         title ={item.title} 
         text={item.text} 
         key={item.id}
